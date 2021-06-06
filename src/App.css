@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282c34;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 3em;
+  color: #efefef;
+}
+body,
+#root {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+#root {
+  gap: 2;
+}
+.logo-image {
+  width: 10rem;
+  height: auto;
+}
