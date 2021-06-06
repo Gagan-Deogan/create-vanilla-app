@@ -52,14 +52,5 @@ const webpackConfig = {
       },
     },
   },
-
-  devServer: {
-    contentBase: path.join(__dirname, "./dist"),
-    port: 3000,
-    compress: true,
-  },
-
-  devtool: "inline-source-map",
-  mode: "production",
 };
 module.exports = webpackConfig;
